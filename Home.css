@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}	
+/*----------------------------------------------------------------------------------*/
+	/*barre de navigation*/
+nav{
+	z-index: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid #DCDCDC;
+	padding: 5px;
+	background-color: #fff;
+	position: sticky;
+	top: 0;
+}
+nav h1{
+	font-size: 20px;
+}
+nav .onglets{
+	display: flex;
+	flex-wrap:wrap;
+}
+nav .onglets h4{
+	line-height: 50px; 
+	white-space: nowrap; 
+	font-size: 17px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+	/* fin de la barre de navigation*/
+/*----------------------------------------------------------------------------------*/
+	/*liens en noir*/
+a {
+ text-decoration: none;
+ color: black;
+}
+	/*fin liens en noir*/
+/*----------------------------------------------------------------------------------*/
+	/*marge texte*/
+h3{
+	padding: 10px;
+}
+
+p{
+	padding: 10px;
+}
+	/*fin de la marge texte*/
+/*----------------------------------------------------------------------------------*/
+	/*vidéo de Squeezie*/
+.videoWrapper {
+	text-align:center;
+    position: relative;
+    padding-bottom: 20%;
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+	text-align:center;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 100%;
+	border-radius: 15px;
+}
+	/*fin de la vidéo de Squeezie*/
+/*----------------------------------------------------------------------------------*/
+	/*bords arrondis images*/
+img {
+	text-align:center;
+    left: 15%;
+	border-radius: 15px;
+}
+	/*fin des bords arrondis images*/
+/*----------------------------------------------------------------------------------*/
+	/*pied de page*/
+footer{
+	padding: 20px;
+	margin-top: 30px;
+	border-top: 1px solid #DCDCDC;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+td {
+  display: block;
+  height: 100%;
+}
+	/*fin du pied de page*/
+/*----------------------------------------------------------------------------------*/
+body { margin-left:50px; margin-right:50px; margin-top:0; margin-bottom:0 }
+
+
+	
